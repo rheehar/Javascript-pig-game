@@ -163,17 +163,19 @@ i {
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
 
 
-.score_condition {
-  margin-top: 1.5em;
+.win_score {
+  position: absolute;
+  left: 50%;
+  top: 520px;
+  color: #555;
+  text-transform: uppercase;
+  font-family: 'Lato';
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  width: 160px;
 }
 
-.score_condition input {
-  padding: 0.7em;
-  border-radius: 0.07em;
-  border: 0;
-}
-
-.score_condition label {
-  font-weight: 600;
-  color: #fff;
+.win_score:focus {
+  outline: none;
 }
